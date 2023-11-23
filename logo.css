@@ -49,3 +49,17 @@ header{
     width: 100%;
     position: absolute;
 }
+
+#second{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(114, 179, 179);
+    display: inline-block;
+    /* text-align: center; */
+}
+.left{
+    float:left;
+}
+.right{
+    float: right;
+}
