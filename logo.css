@@ -1,0 +1,51 @@
+body{
+margin:auto;
+}
+
+header{
+    height:50px;
+    border: 2px solid teal;
+}
+
+.brand{
+    font-size: 40px;
+    float: left;
+}
+.brand p{
+    margin-top: -1%;
+}
+
+.social{
+    height:30px;
+    float:right;
+    margin-top:0.7%;
+}
+.social a{
+ 
+}
+.social a img{
+    height:100%;
+}
+
+#first{
+    height: 460px;
+    /* border:2px solid blue; */
+    background-image: url('https://i.ibb.co/275v9fP/marguerite-729510-640.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 460px;
+}
+
+.logo{
+    height:100px;
+    width:100px;
+    background-color: aquamarine;
+    border-radius:70%;
+    margin-left:45%;
+    margin-top: 1%;
+    position: absolute;
+}
+.logo img{
+    height: 105%;
+    width: 100%;
+    position: absolute;
+}
