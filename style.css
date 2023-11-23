@@ -14,10 +14,10 @@ header{
     width:100%;
     background-color: yellow;
     display: inline-block;
-    background-image:('https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_640.jpg');
+    background-image:url('https://i.ibb.co/275v9fP/marguerite-729510-640.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100%;
+    /* background-size: cover; */
+    background-size: 100% 450px;
 
 }
 #a{
