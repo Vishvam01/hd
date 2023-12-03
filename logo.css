@@ -1,7 +1,9 @@
 body{
 margin:auto;
 }
-
+a{
+    text-decoration: none;
+}
 header{
     height:50px;
     border: 2px solid teal;
@@ -73,6 +75,7 @@ header{
     background-color: rgb(114, 179, 179);
     display: inline-block;
     /* text-align: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .left{
     float:left;

@@ -1,6 +1,9 @@
 body{
     margin:0px;
 }
+a{
+    text-decoration: none;
+}
 header{
     /* text-align: center; */
     background-color: violet;
@@ -26,10 +29,9 @@ header{
 }
 
 #first{
-    height: 455px;
+    height: 450px;
     width:100%;
     margin-top: -1%;
-    background-color: yellow;
     display: inline-block;
     background-image:url('https://i.ibb.co/275v9fP/marguerite-729510-640.jpg');
     background-repeat: no-repeat;
@@ -57,17 +59,66 @@ header{
     margin-left:5%;
     font-size:large;
 }
+/* QUICK SEARCH */
+#quicksearch{
+     height: 400px;
+     width: 100%;
+     margin-top: -1.9%;
+     background-color: yellow; 
+
+}
+.top{
+    height: 15%;
+   text-align: center;
+   line-height:1.8;
+    background-color: rgb(43, 226, 202);  
+}
+.tile{
+    height:85%;
+    width: 100%;
+    /* background-color: turquoise; */
+}
+#tiles{
+    height:75%;
+    width: 14%;
+    margin-top: 3%;
+    margin-left:2%;
+    background-color: wheat;
+    float: left;
+    border: 2px solid black;
+    box-shadow:12px 13px 5px rgb(59, 40, 40);
+}
+
+#tiles img{
+    height: 100%;
+    width:100%;
+}
 
 #second{
-    height: 400px;
+    /* height: 100px; */
     width: 100%;
     background-color: rgb(114, 179, 179);
     display: inline-block;
     /* text-align: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#second a{
+    color: rgb(55, 87, 3) !important
 }
 .left{
     float:left;
 }
 .right{
     float: right;
+}
+footer{
+    height: 60px;
+    background-color: chartreuse;
+    margin-top: -1.7%;
+    line-height: 1.6;
+}
+footer ul{
+  list-style-type:none;
+  font-size: larger;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
