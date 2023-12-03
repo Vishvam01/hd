@@ -37,6 +37,7 @@ header{
 
 .logo{
     height:100px;
+    /* height: 20%; */
     width:100px;
     background-color: aquamarine;
     border-radius:70%;
@@ -48,6 +49,22 @@ header{
     height: 105%;
     width: 100%;
     position: absolute;
+}
+.dropdown {
+  height: 100px;
+  width:30%;
+  background-color: aqua;
+  margin-top:15%;
+  margin-left: 35%;
+  position:absolute;
+  line-height:5;
+}
+.dropdown label{
+   font-size:large;
+}
+.dropdown select{
+    height:40px;
+    width:90px;
 }
 
 #second{
